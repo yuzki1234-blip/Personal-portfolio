@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracy Nirvana — BSIT Student Portfolio</title>
+  
+  <!-- External Scripts & Fonts -->
+  <script src="/_sdk/f432b76fb310b513.telemetry_sdk.js" integrity="sha512-9FJQ55EKmmqhyyik8BhrMVfm0+iYYfb8uOlRsjtkxJMEI97qOVEI4PnHohDjQAtvAep0IOEpdQ64eki0sz62ug=="></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/b7bbbe551ba4f8f5.editing_sdk.js" integrity="sha512-h06pMz6KcVo4Wjvoggb4sS5DZpb55bTriAzBmA0YwbkBA3z2ZXl8CBEbCWT+/fAsm0SwDejJ7jJHOZsLZKqPoQ=="></script>
+  <script src="/_sdk/e3937a0574eb2d69.data_sdk.js" type="text/javascript" integrity="sha512-xbp/ACqEQy1aDxYMtXTrR3y5MUbzxuggRR/9sD48Gl4VhLMMCiAHsxMaFV6DTdeBpR6ymF+t2zhPKYkWM3+Jfw=="></script>
+  <script src="/_sdk/9432170dbd2ae0df.resizing_sdk.js" type="text/javascript" integrity="sha512-FeT+58sb1f9ejWPWFjCbJvTT+SDwGV+ngrHUnlO7TWEOoqwOLj6p256kO3vOL7DIWl1cIgrobiof8v2bOigwPg=="></script>
+  
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-template-id="__page-root">
+  
+  <!-- ===== HEADER & NAVIGATION ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="brand-link">
+        <span class="brand-icon">
+          <i data-lucide="waves"></i>
+        </span>
+        <span data-template-id="brand-name" class="brand-name">Tracy Nirvana</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <ul class="desktop-nav">
+        <li><a data-template-id="nav-about" href="#about">About</a></li>
+        <li><a data-template-id="nav-projects" href="#projects">Projects</a></li>
+        <li><a data-template-id="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-button" type="button" class="menu-button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <i data-lucide="menu" class="menu-icon"></i>
+        <i data-lucide="x" class="menu-close-icon"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul>
+        <li><a data-template-id="mobile-nav-about" href="#about">About</a></li>
+        <li><a data-template-id="mobile-nav-projects" href="#projects">Projects</a></li>
+        <li><a data-template-id="mobile-nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" data-template-id="hero-section" class="hero-section">
+      <img data-template-id="hero-image" class="hero-image" loading="lazy" src="https://images.pexels.com/photos/6573152/pexels-photo-6573152.jpeg" alt="Stunning aerial view of turquoise ocean waves gently rolling onto a tropical sandy beach.">
+      <div class="hero-overlay"></div>
+      <div class="hero-tint"></div>
+      <div class="sun-disc" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <!-- Eyebrow -->
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span data-template-id="hero-eyebrow">BSIT student • curious builder</span>
+          </div>
+
+          <!-- Title -->
+          <h1 data-template-id="hero-title" class="hero-title">Hi, I'm Tracy — creating ideas with an ocean of curiosity.</h1>
+
+          <!-- Description -->
+          <p data-template-id="hero-description" class="hero-description">I'm a BSIT student who enjoys turning lessons into real projects. I'm always ready to learn new tools, try fresh ideas, and grow one build at a time.</p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-buttons">
+            <button data-scroll-target="projects" data-template-id="hero-projects-button" type="button" class="btn btn-primary">
+              Explore my projects
+            </button>
+            <button data-scroll-target="about" data-template-id="hero-about-button" type="button" class="btn btn-secondary">
+              Meet Tracy
+            </button>
+          </div>
+        </div>
+
+        <!-- Note Card -->
+        <aside data-template-id="hero-note-card" class="hero-card">
+          <div class="hero-card-header">
+            <div class="hero-card-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <span data-template-id="hero-note-label" class="card-label">Currently</span>
+          </div>
+          <h2 data-template-id="hero-note-title" class="hero-card-title">Learning beyond the classroom</h2>
+          <p data-template-id="hero-note-text" class="hero-card-text">Exploring better interfaces, cleaner code, and smarter ways to solve everyday problems.</p>
+          <div class="hero-card-footer">
+            <div class="hero-card-footer-icon">
+              <i data-lucide="code-2"></i>
+            </div>
+            <p data-template-id="hero-note-foot">Open to new knowledge and creative challenges.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="wave-edge" aria-hidden="true"></div>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" data-template-id="about-section" class="about-section">
+      <div class="about-container">
+        <!-- Left Column -->
+        <div class="about-left">
+          <p data-template-id="about-eyebrow" class="section-eyebrow">01 — ABOUT ME</p>
+          <h2 data-template-id="about-title" class="section-title">A student today. A lifelong learner always.</h2>
+        </div>
+
+        <!-- Right Column -->
+        <div class="about-card">
+          <p data-template-id="about-text" class="about-main-text">I'm Tracy Nirvana, a Bachelor of Science in Information Technology student with a growing passion for web design, systems, and thoughtful digital experiences.</p>
+          <p data-template-id="about-learning-text" class="about-secondary-text">My projects may begin as school requirements or personal experiments, but each one is a chance to practice, improve, and discover something new.</p>
+
+          <!-- Skills Tags -->
+          <ul class="skills-list" aria-label="Areas of interest">
+            <li data-template-id="skill-web" class="skill-tag skill-web">Web Development</li>
+            <li data-template-id="skill-systems" class="skill-tag skill-systems">System Design</li>
+            <li data-template-id="skill-ui" class="skill-tag skill-ui">UI Styling</li>
+            <li data-template-id="skill-learning" class="skill-tag skill-learning">Always Learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" data-template-id="projects-section" class="projects-section">
+      <div class="projects-container">
+        <!-- Section Header -->
+        <div class="projects-header">
+          <div>
+            <p data-template-id="projects-eyebrow" class="section-eyebrow">02 — SELECTED WORK</p>
+            <h2 data-template-id="projects-title" class="section-title">Three projects, three waves of progress.</h2>
+          </div>
+          <p data-template-id="projects-description" class="section-description">A mix of future plans, an earlier school system, and a playful portal redesign — all part of my learning journey.</p>
+        </div>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article data-template-id="project-one-card" class="project-card">
+            <figure class="project-image">
+              <img data-template-id="project-one-image" loading="lazy" src="https://images.pexels.com/photos/8534457/pexels-photo-8534457.jpeg" alt="Elegant minimalist workspace with laptop, ceramics, and brushes in natural light.">
+              <span data-template-id="project-one-number" class="project-number">PROJECT 01</span>
+            </figure>
+            <div class="project-content">
+              <h3 data-template-id="project-one-title" class="project-title">My Future Portfolio</h3>
+              <p data-template-id="project-one-description" class="project-description">A vision for my evolving digital home — designed to grow with my skills, personality, and future work.</p>
+              
+              <!-- Tech Tags -->
+              <ul class="project-tags">
+                <li data-template-id="project-one-tag-one" class="project-tag">HTML</li>
+                <li data-template-id="project-one-tag-two" class="project-tag">Responsive Design</li>
+              </ul>
+
+              <!-- Project Details -->
+              <div class="project-details" aria-live="polite">
+                <p data-template-id="project-one-detail" class="project-detail-text">Planned as a polished, responsive space for introducing myself, documenting progress, and presenting future projects with more depth.</p>
+              </div>
+
+              <!-- Toggle Button -->
+              <button type="button" data-project-toggle="" data-template-id="project-one-button" class="btn btn-project" aria-expanded="false">
+                <span class="open-label">View details</span>
+                <span class="close-label">Close details</span>
+                <i data-lucide="chevron-down"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article data-template-id="project-two-card" class="project-card">
+            <figure class="project-image">
+              <img data-template-id="project-two-image" loading="lazy" src="https://images.pexels.com/photos/18108314/pexels-photo-18108314.jpeg" alt="Sleek luxury cars showcased in a stylish, modern automotive dealership.">
+              <span data-template-id="project-two-number" class="project-number">PROJECT 02</span>
+            </figure>
+            <div class="project-content">
+              <h3 data-template-id="project-two-title" class="project-title">Car Dealership System</h3>
+              <p data-template-id="project-two-description" class="project-description">An old-school project system for organizing dealership information and practicing structured application logic.</p>
+              
+              <!-- Tech Tags -->
+              <ul class="project-tags">
+                <li data-template-id="project-two-tag-one" class="project-tag">School Project</li>
+                <li data-template-id="project-two-tag-two" class="project-tag">System Logic</li>
+              </ul>
+
+              <!-- Project Details -->
+              <div class="project-details" aria-live="polite">
+                <p data-template-id="project-two-detail" class="project-detail-text">This project helped me understand how records, workflows, and user-facing screens can work together in one organized system.</p>
+              </div>
+
+              <!-- Toggle Button -->
+              <button type="button" data-project-toggle="" data-template-id="project-two-button" class="btn btn-project" aria-expanded="false">
+                <span class="open-label">View details</span>
+                <span class="close-label">Close details</span>
+                <i data-lucide="chevron-down"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article data-template-id="project-three-card" class="project-card">
+            <figure class="project-image">
+              <img data-template-id="project-three-image" loading="lazy" src="https://images.pexels.com/photos/5703429/pexels-photo-5703429.jpeg" alt="Detailed close-up image of a smartphone's control center showing various connectivity icons.">
+              <span data-template-id="project-three-number" class="project-number">PROJECT 03</span>
+            </figure>
+            <div class="project-content">
+              <h3 data-template-id="project-three-title" class="project-title">Piso WiFi Portal CSS</h3>
+              <p data-template-id="project-three-description" class="project-description">A stylized take on a peso WiFi portal, focused on making a familiar utility screen feel more colorful and inviting.</p>
+              
+              <!-- Tech Tags -->
+              <ul class="project-tags">
+                <li data-template-id="project-three-tag-one" class="project-tag">CSS</li>
+                <li data-template-id="project-three-tag-two" class="project-tag">UI Styling</li>
+              </ul>
+
+              <!-- Project Details -->
+              <div class="project-details" aria-live="polite">
+                <p data-template-id="project-three-detail" class="project-detail-text">The exercise explored color, spacing, buttons, and hierarchy while keeping the portal's primary actions clear and easy to find.</p>
+              </div>
+
+              <!-- Toggle Button -->
+              <button type="button" data-project-toggle="" data-template-id="project-three-button" class="btn btn-project" aria-expanded="false">
+                <span class="open-label">View details</span>
+                <span class="close-label">Close details</span>
+                <i data-lucide="chevron-down"></i>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" data-template-id="contact-section" class="contact-section">
+      <div class="contact-container">
+        <!-- Contact Text -->
+        <div class="contact-text">
+          <p data-template-id="contact-eyebrow" class="section-eyebrow">03 — LET'S CONNECT</p>
+          <h2 data-template-id="contact-title" class="contact-title">Let's learn, build, and make waves.</h2>
+          <p data-template-id="contact-text" class="contact-description">Have a project idea, learning opportunity, or friendly tech conversation? I'd be happy to hear from you.</p>
+        </div>
+
+        <!-- Contact Button -->
+        <div class="contact-button-wrapper">
+          <button id="copy-email-button" type="button" data-template-id="contact-button" class="btn btn-contact">
+            <i data-lucide="mail" aria-hidden="true"></i>
+            <span class="copy-default">Copy email</span>
+            <span class="copy-success" aria-live="polite">Email copied!</span>
+          </button>
+          <p id="copy-fallback" data-template-id="contact-email" class="contact-email-fallback">tracy.nirvana@example.com</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer data-template-id="footer-section" class="footer">
+    <div class="footer-content">
+      <p data-template-id="footer-text" class="footer-text">© 2026 Tracy Nirvana</p>
+      <p data-template-id="footer-note" class="footer-note">Made with curiosity by the shore.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
